@@ -3,7 +3,7 @@
 #  This solution doesn't pass all of the hidden test cases so I've had to abandon it.. However, I think I took an interesting approach that was worth sharing.
 
 #  1) We take a window that offers us a view onto the last 3 moves of the complete route
-#  2) We continually process the middle element to figure out if the moves either side of it represent Left or Right intersections
+#  2) We continually process the middle element to figure out if the moves either side of it represent Left/Right/Up/Down intersections
 #  3) We store those intersections on a global hashmap of positions and their intersections
 #  4) As each position is reached N times, it eventually ends up with a complex set of 4 directional intersections
 #  5) We could the number of positions with 4 intersections at the end
