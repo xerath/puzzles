@@ -1,4 +1,6 @@
-// https://leetcode.com/problems/sudoku-solver/description/
+// Leetcode Sudoku challenge: https://leetcode.com/problems/sudoku-solver/description/
+// Requires resursive guessing/backtracking algo
+
 
 function solveSudoku(board) {
     if (!board || board.length === 0) return
